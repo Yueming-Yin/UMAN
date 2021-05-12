@@ -1,0 +1,47 @@
+data:
+  dataset:
+    name: office # choices are ['office', 'officehome', 'VisDA+ImageCLEF-DA']
+    root_path: /data/yinmingyue/Datasets/Office31 # /path/to/dataset/root
+    source1: 1 # No.1 source domain index
+    source2: 2 # No.2 source domain index
+    target: 0 # target domain index
+    n_share1: 7 # number of the common classes between the No.1 source domain and the target domain
+    n_source_private1: 5 # number of classes private to the No.1 source domain
+    n_share2: 7 # number of the common classes between the No.2 source domain and the target domain
+    n_source_private2: 5 # number of classes private to the No.2 source domain
+    n_share_common: 10 # number of common classes between the whole source domain and the target domain
+    n_private_common: 0 # number of common classes between the private label sets of No.1 source domain and the No.2 source domain
+    n_total: 31 # number of classes in total
+
+  dataloader:
+    class_balance: true # if class_balance when loading datasets
+    data_workers: 0 # how many workers to use for train dataloaders
+    batch_size: 18 # batch_size for source domain and target domain respectively
+
+model:
+  base_model: resnet50 # backbone feature extractor
+  pretrained_model: Pre-trained/resnet50-19c8e357.pth # /path/to/pretrained/model
+
+train:
+  min_step: 20000 # minimum steps to run. run epochs until it exceeds the minStep
+  lr: 0.01 # learning rate for new layers. learning rate for finetune is 1/10 of lr
+  weight_decay: 0.0005 # weight_decay for SGD optimizer
+  momentum: 0.9  # momentum for SGD optimizer
+  continue_training: False  # continue to train on resume files: True / False
+  continue_step: 0  # the step continue to train
+  cut: .0  # cut threshold for normalizing weights
+
+test:
+  test_interval: 100 # interval of two continuous test phase
+  test_only: True # test a given model and exit
+  resume_file: ./log/DW-A/best.pkl # model to test
+  w_0: 0.5 # the threshold for separating unknown-class samples from known-class samples
+
+misc:
+  gpus: 1  # how many GPUs to be used, 0 indicates CPU only, needed GPU memory < 6 GB
+  gpu_id: "0"  # which GPU you want to use
+  gpu_id_list: [0] # [0,...,gpus-1]
+
+log:
+  root_dir: log # the log directory (log directory will be {root_dir}/{method}/time/)
+  log_interval: 10 # steps to log scalars
