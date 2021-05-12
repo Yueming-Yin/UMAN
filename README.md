@@ -12,6 +12,8 @@ Code release for  **[Universal Multi-Source Domain Adaptation](https://arxiv.org
 
 - Download datasets from https://github.com/jindongwang/transferlearning
 
+- Download pre-trained model from https://download.pytorch.org/models/resnet50-19c8e357.pth
+
 - Write your config file in "config.yaml"
 
 - Train (configurations in `train-config-office31.yaml` are only for Office-31 dataset):
