@@ -28,7 +28,7 @@ Code release for  **[Universal Multi-Source Domain Adaptation](https://arxiv.org
 
   `tensorboard --logdir .`
 
-## Checkpoints
+## 
 
 We provide the representative best cases and config files for Office-31 datasets at [Google Drive](https://drive.google.com/drive/folders/15X3VY6pYZ61ZTifkshSI4QSxVZyTKgSg?usp=sharing).
 
