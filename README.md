@@ -1,6 +1,6 @@
 # Universal Multi-Source Domain Adaptation
 
-Code release for  **[Universal Multi-Source Domain Adaptation](https://arxiv.org/abs/2011.02594)** 
+Code release for  **[Universal Multi-Source Domain Adaptation](https://www.sciencedirect.com/science/article/abs/pii/S0950705121005773)** 
 
 ## Requirements
 - python 3.6+
