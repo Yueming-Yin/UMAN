@@ -1,6 +1,6 @@
 # Universal Multi-Source Domain Adaptation
 
-Code release for  **[Universal Multi-Source Domain Adaptation](https://www.sciencedirect.com/science/article/abs/pii/S0950705121005773)** 
+Code release for  **[Universal Multi-Source Domain Adaptation for Image Classification](https://www.sciencedirect.com/science/article/pii/S0031320321004192)** 
 
 ## Requirements
 - python 3.6+
@@ -36,16 +36,19 @@ We provide the representative best cases and config files for Office-31 datasets
 Please cite:
 
 ```
-@article{Yin2020Universal,
-  author    = {Yueming Yin and
-               Zhen Yang and
-               Haifeng Hu and
-               Xiaofu Wu},
-  title     = {Universal Multi-Source Domain Adaptation},
-  journal   = {CoRR},
-  volume    = {abs/2011.02594},
-  year      = {2020}
+@article{yin2022universal,
+  title={Universal multi-Source domain adaptation for image classification},
+  author={Yin, Yueming and Yang, Zhen and Hu, Haifeng and Wu, Xiaofu},
+  journal={Pattern Recognition},
+  volume={121},
+  pages={108238},
+  year={2022},
+  publisher={Elsevier}
 }
+```
+or
+```
+Yin, Yueming, Zhen Yang, Haifeng Hu, and Xiaofu Wu. "Universal multi-Source domain adaptation for image classification." Pattern Recognition 121 (2022): 108238.
 ```
 
 ## Contact
