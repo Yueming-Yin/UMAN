@@ -1,6 +1,6 @@
 # Universal Multi-Source Domain Adaptation
 
-Code release for  **[Universal Multi-Source Domain Adaptation for Image Classification](https://www.sciencedirect.com/science/article/pii/S0031320321004192)** 
+Code release for  **[Universal Multi-Source Domain Adaptation for Image Classification](https://www.sciencedirect.com/science/article/pii/S0925231221007608)** 
 
 ## Requirements
 - python 3.6+
@@ -48,7 +48,7 @@ Please cite:
 ```
 or
 ```
-Yin, Yueming, Zhen Yang, Haifeng Hu, and Xiaofu Wu. "Universal multi-Source domain adaptation for image classification." Pattern Recognition 121 (2022): 108238.
+Yin, Yueming, Zhen Yang, Haifeng Hu, and Xiaofu Wu. "Metric-learning-assisted domain adaptation." Neurocomputing 454 (2021): 268-279.
 ```
 
 ## Contact
