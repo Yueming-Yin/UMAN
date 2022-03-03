@@ -12,6 +12,10 @@ Code release for  **[Universal Multi-Source Domain Adaptation for Image Classifi
 
 - Download datasets from https://github.com/jindongwang/transferlearning
 
+- Generate the list of your datasets (read the comments in the code and modify the relevant parameters to use):
+
+  `python turn_to_list.py`
+
 - Download pre-trained model from https://download.pytorch.org/models/resnet50-19c8e357.pth
 
 - Write your config file in "config.yaml"
