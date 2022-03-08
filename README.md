@@ -12,7 +12,7 @@ Code release for  **[Universal Multi-Source Domain Adaptation for Image Classifi
 
 - Download datasets from https://github.com/jindongwang/transferlearning
 
-- Generate the list of your datasets (read the comments in the code and modify the relevant parameters to use):
+- Generate the list of your datasets (read the comments in the code and modify the relevant parameters to use, lists we used in the Dataset_lists folder are as a reference):
 
   `python turn_to_list.py`
 
