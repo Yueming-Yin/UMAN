@@ -1,6 +1,8 @@
 # Universal Multi-Source Domain Adaptation
 
-Code release for  **[Universal Multi-Source Domain Adaptation for Image Classification](https://www.sciencedirect.com/science/article/pii/S0031320321004192)** 
+Code release for  **[Universal Multi-Source Domain Adaptation for Image Classification](https://www.sciencedirect.com/science/article/pii/S0031320321004192)** (Pattern Recognition, 2022, IF: 8.518)
+
+- All rights reserved by Yueming Yin, Email: 1018010514@njupt.edu.cn (or yinym96@qq.com).
 
 ## Requirements
 - python 3.6+
